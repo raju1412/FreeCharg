@@ -20,5 +20,5 @@ public class TC001_Lauch_Browser
 		common.Get_App();
 		common.New_Registration();
 	}
-
+//
 }

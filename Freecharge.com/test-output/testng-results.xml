@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20170" started-at="2017-10-11T17:37:06Z" finished-at="2017-10-11T17:37:26Z">
+  <suite name="Default suite" duration-ms="22788" started-at="2017-10-28T12:29:53Z" finished-at="2017-10-28T12:30:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20170" started-at="2017-10-11T17:37:06Z" finished-at="2017-10-11T17:37:26Z">
-      <class name="TestCases.TC001_Lauch_Browser">
-        <test-method status="PASS" signature="Launch_Browser()[pri:0, instance:TestCases.TC001_Lauch_Browser@2b98378d]" name="Launch_Browser" is-config="true" duration-ms="3612" started-at="2017-10-11T23:07:06Z" finished-at="2017-10-11T23:07:10Z">
+    <test name="Default test" duration-ms="22788" started-at="2017-10-28T12:29:53Z" finished-at="2017-10-28T12:30:15Z">
+      <class name="TestCases.TC0010_Click_On_Metro">
+        <test-method status="PASS" signature="ClickonMetroOnHonePage()[pri:0, instance:TestCases.TC0010_Click_On_Metro@6767c1fc]" name="ClickonMetroOnHonePage" duration-ms="22736" started-at="2017-10-28T17:59:53Z" finished-at="2017-10-28T18:00:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Launch_Browser -->
-        <test-method status="PASS" signature="Get_App()[pri:0, instance:TestCases.TC001_Lauch_Browser@2b98378d]" name="Get_App" duration-ms="16523" started-at="2017-10-11T23:07:10Z" finished-at="2017-10-11T23:07:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Get_App -->
-      </class> <!-- TestCases.TC001_Lauch_Browser -->
+        </test-method> <!-- ClickonMetroOnHonePage -->
+      </class> <!-- TestCases.TC0010_Click_On_Metro -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

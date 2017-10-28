@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.TC001_Lauch_Browser">
+      <class name="TestCases.TC0011_Click_On_GooglePaly">
         <methods>
-          <include name="Launch_Browser"/>
-          <include name="Get_App"/>
+          <include name="ClickonGoogleOnHonePage"/>
         </methods>
-      </class> <!-- TestCases.TC001_Lauch_Browser -->
+      </class> <!-- TestCases.TC0011_Click_On_GooglePaly -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

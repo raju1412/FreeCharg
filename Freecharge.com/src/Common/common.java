@@ -6,11 +6,19 @@ import Pages.HomePage;
 
 public class common 
 {
+	
+	/* This function is created for Launching browser
+	 * 
+	 * Author : Raju Bhandge
+	 * 
+	 * 
+	 * */
 	public static void Launch_Browser()
 	{
 		String Driver_Path = "F:\\selenium jars\\Drivers\\chromedriver_win32\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", Driver_Path);
 		driver.driver = new ChromeDriver();
+
 	}
 	public static void Get_App()
 	{
@@ -21,5 +29,8 @@ public class common
 		HomePage.Click_On_Registration().click();
 		HomePage.Click_On_register().click();
 	}
-
+	public static void Mobile_click() 
+	{
+		HomePage.Click_on_Mobile().click();
+	}
 }

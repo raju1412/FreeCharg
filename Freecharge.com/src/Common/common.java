@@ -6,11 +6,19 @@ import Pages.HomePage;
 
 public class common 
 {
+	
+	/* This function is created for Launching browser
+	 * 
+	 * Author : Raju Bhandge
+	 * 
+	 * 
+	 * */
 	public static void Launch_Browser()
 	{
 		String Driver_Path = "F:\\selenium jars\\Drivers\\chromedriver_win32\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", Driver_Path);
 		driver.driver = new ChromeDriver();
+
 	}
 	public static void Get_App()
 	{

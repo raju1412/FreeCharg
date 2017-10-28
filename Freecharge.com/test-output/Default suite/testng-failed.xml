@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.TC001_Lauch_Browser">
+      <class name="TestCases.TC002_ClickOnMobileOnHomePage">
         <methods>
-          <include name="Launch_Browser"/>
-          <include name="Get_App"/>
+          <include name="ClickOnMobileonHomePage"/>
         </methods>
-      </class> <!-- TestCases.TC001_Lauch_Browser -->
+      </class> <!-- TestCases.TC002_ClickOnMobileOnHomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

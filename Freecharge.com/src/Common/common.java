@@ -29,5 +29,8 @@ public class common
 		HomePage.Click_On_Registration().click();
 		HomePage.Click_On_register().click();
 	}
-
+	public static void Mobile_click() 
+	{
+		HomePage.Click_on_Mobile().click();
+	}
 }

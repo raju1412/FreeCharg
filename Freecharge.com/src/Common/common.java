@@ -30,6 +30,7 @@ public class common
 		HomePage.Click_On_Registration().click();
 		HomePage.Click_On_register().click();
 	}
+
 	public static void Eelectricity_Click()
 	{
 		HomePage.Click_On_Eectricity().click();
@@ -61,6 +62,12 @@ public class common
 	public static void Handlepopup()
 	{
 		HomePage.Handelpopup().click();
+	}
+
+
+	public static void Mobile_click() 
+	{
+		HomePage.Click_on_Mobile().click();
 	}
 
 }

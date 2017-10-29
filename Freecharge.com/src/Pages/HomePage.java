@@ -24,15 +24,9 @@ public class HomePage
 		return register_Link = driver.driver.findElement(By.xpath("//span[@data-reactid='.0.3.1.0.0.0.0.1.0.1']"));
 		
 	}
-	
+
 	public static WebElement Click_on_Mobile() 
 	{
 		return driver.driver.findElement(By.xpath("//span[@data-reactid='.0.3.0.0.0.0:$0.0.1' ]"));
 	}
-	
-	public static WebElement Click_on_Deny()
-	{
-		return driver.driver.findElement(By.id("wzrk-cancel"));
-	}
-
 }

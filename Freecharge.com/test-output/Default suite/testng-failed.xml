@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.TC001_Lauch_Browser">
+<<<<<<< HEAD
+      <class name="TestCases.TC0011_Click_On_GooglePaly">
+=======
+      <class name="TestCases.TC002_ClickOnMobileOnHomePage">
+>>>>>>> refs/remotes/master/master
         <methods>
-          <include name="Launch_Browser"/>
-          <include name="Get_App"/>
+<<<<<<< HEAD
+          <include name="ClickonGoogleOnHonePage"/>
+=======
+          <include name="ClickOnMobileonHomePage"/>
+>>>>>>> refs/remotes/master/master
         </methods>
-      </class> <!-- TestCases.TC001_Lauch_Browser -->
+<<<<<<< HEAD
+      </class> <!-- TestCases.TC0011_Click_On_GooglePaly -->
+=======
+      </class> <!-- TestCases.TC002_ClickOnMobileOnHomePage -->
+>>>>>>> refs/remotes/master/master
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

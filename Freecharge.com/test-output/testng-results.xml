@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Default suite" duration-ms="18820" started-at="2017-10-28T11:41:38Z" finished-at="2017-10-28T11:41:57Z">
-    <groups>
+ <groups>
     </groups>
-    <test name="Default test" duration-ms="18820" started-at="2017-10-28T11:41:38Z" finished-at="2017-10-28T11:41:57Z">
-      <class name="TestCases.TC001_Lauch_Browser">
-        <test-method status="PASS" signature="Launch_Browser()[pri:0, instance:TestCases.TC001_Lauch_Browser@18be83e4]" name="Launch_Browser" is-config="true" duration-ms="3615" started-at="2017-10-28T17:11:38Z" finished-at="2017-10-28T17:11:42Z">
-          <reporter-output>
+ <reporter-output>
           </reporter-output>
-        </test-method> <!-- Launch_Browser -->
-        <test-method status="PASS" signature="Get_App()[pri:0, instance:TestCases.TC001_Lauch_Browser@18be83e4]" name="Get_App" duration-ms="15145" started-at="2017-10-28T17:11:42Z" finished-at="2017-10-28T17:11:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Get_App -->
-      </class> <!-- TestCases.TC001_Lauch_Browser -->
-    </test> <!-- Default test -->
+</test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
